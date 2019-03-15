@@ -6,14 +6,13 @@
 void Check(char buffer[500])
 {
    printf("%s\n", buffer);
-
+   
    if (strcmp(buffer, "pingspoof"))
    {
       char[500] ip;
       printf("What is the ip you want to pingspoof? : ");
       scanf("%s", &ip);
    }
-   
 }
 
 int main()
