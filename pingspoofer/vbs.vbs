@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "pingspoofIPV4.bat", 0, True
